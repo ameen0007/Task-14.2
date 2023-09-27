@@ -25,7 +25,7 @@ export const Productpage = () => {
     const response = await axios(`https://product-list-theta.vercel.app/api/product/${id}`)
     
     setproduct(response.data)
-    
+    console.log(response.data, "keri");
   }
   const images = product.images || []
 
