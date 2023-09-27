@@ -3,7 +3,14 @@ const app = express()
 const cors =require("cors")
 const product = require("./product.json")
 
-app.use(cors())
+app.use(cors(
+
+  // {
+  //   origin : ["https://todo-app-client-psi.vercel.app"],
+  //   methods : ["GET","POST","PUT","DELETE"],
+  //   credentials : true
+  // }  
+))
 app.use(express.json())
 
 
