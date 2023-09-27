@@ -1,7 +1,8 @@
 import { Fragment } from "react"
 import { Mainpage } from "./Componets/landingpage/mainpage"
-import { Productpage } from "./Componets/productpage/Productpage"
+
 import { Route, Routes } from "react-router-dom";
+import { Productpage } from "./Componets/productpage/Productpage";
 
 
 function App() {
