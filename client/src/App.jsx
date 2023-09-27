@@ -1,8 +1,7 @@
 import { Fragment } from "react"
-import { Mainpage } from "./Componets/landingpage/mainpage"
+import { Mainpage } from "./Componets/Mainpage"
+import { Productlist } from "./Componets/Productlist/Productlist"
 
-import { Route, Routes } from "react-router-dom";
-import { Productpage } from "./Componets/productpage/Productpage";
 
 
 function App() {
@@ -10,7 +9,7 @@ function App() {
      <Fragment>
       <Routes>
         <Route path="/" element={<Mainpage/>}/>
-        <Route path="/product/:id" element={<Productpage/>} />
+        <Route path="/product/:id" element={<Productlist/>} />
       </Routes>
        
      </Fragment>
