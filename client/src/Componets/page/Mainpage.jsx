@@ -1,6 +1,7 @@
 import React from 'react'
-import { Header } from './Header/Header'
-import { Productlist } from './Productlist/Productlist'
+import { Header } from '../Header/Header'
+import { Productlist } from '../Productlist/Productlist'
+
 
 
 

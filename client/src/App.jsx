@@ -1,5 +1,7 @@
 import { Fragment } from "react"
-import { Mainpage } from "./Componets/Mainpage"
+
+
+import { Mainpage } from "./Componets/page/Mainpage"
 import { Productlist } from "./Componets/Productlist/Productlist"
 
 
