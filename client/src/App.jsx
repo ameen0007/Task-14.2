@@ -2,7 +2,7 @@ import { Fragment } from "react"
 
 
 import { Mainpage } from "./Componets/page/Mainpage"
-import { Productlist } from "./Componets/Productlist/Productlist"
+import { Productpage } from "./Componets/productpage/Productpage"
 import { Route, Routes } from "react-router"
 
 
@@ -13,7 +13,7 @@ function App() {
      <div>
      <Routes>
      <Route path="/" element={<Mainpage/>}/>
-      <Route path="/product" element={<Productlist/>}/>
+      <Route path="/product/:id" element={<Productpage/>}/>
      </Routes>
 
     </div>
