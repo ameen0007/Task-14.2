@@ -22,7 +22,7 @@ export const Productpage = () => {
   }, [])
 
   const handlefetchproductlis = async()=>{
-    const response = await axios(`https://product-list-theta.vercel.app/api/product/:${id}`)
+    const response = await axios(`https://product-list-theta.vercel.app/api/product/${id}`)
     
     setproduct(response.data)
     console.log(response.data, "keri");
