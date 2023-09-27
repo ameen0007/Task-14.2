@@ -1,7 +1,6 @@
 import {useEffect,useState} from 'react'
 import './productpage.css'
 import axios from "axios";
-import './productpage.css'
 import {  useNavigate, useParams } from 'react-router';
 import { Header } from '../Header/Header';
 import { AiOutlineCaretRight} from 'react-icons/ai'
@@ -13,7 +12,7 @@ export const Productpage = () => {
  const [product, setproduct] = useState({})
  const [curreimageindex,setcurreimageindex] = useState(0)
 
-         const  navigate = useNavigate()
+      const  navigate = useNavigate()
 
   const {id} = useParams()
  console.log(id,"id");
