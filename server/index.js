@@ -5,11 +5,11 @@ const product = require("./product.json")
 
 app.use(cors(
 
-  // {
-  //   origin : ["https://todo-app-client-psi.vercel.app"],
-  //   methods : ["GET","POST","PUT","DELETE"],
-  //   credentials : true
-  // }  
+  {
+    origin : ["https://client-nu-nine.vercel.app"],
+    methods : ["GET"],
+    credentials : true
+  }  
 ))
 app.use(express.json())
 
