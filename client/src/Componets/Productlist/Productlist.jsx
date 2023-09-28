@@ -14,8 +14,9 @@ export const Productlist = () => {
   }, []);
 
   const fetchproductlist = async () => {
-    const response = await axios("https://product-list-theta.vercel.app/api/product");
-   
+    const response = await axios(" https://product-list-theta.vercel.app/api/product");
+
+    
     setproductlist(response.data);
 
   };

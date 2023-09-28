@@ -38,7 +38,7 @@
     },
     {
     "id": 3,
-    "title": "Samsung Universe 9",
+    "title": "Samsung 9",
     "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
     "price": 14999,
     "discountPercentage": 15,
@@ -107,7 +107,7 @@
     },
     {
     "id": 7,
-    "title": "Samsung Galaxy Book",
+    "title": "Samsung  Book",
     "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
     "price": 149999,
     "discountPercentage": 4,
@@ -125,7 +125,7 @@
     },
     {
     "id": 8,
-    "title": "Microsoft Surface Laptop 4",
+    "title": "Microsoft 4",
     "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
     "price": 14999,
     "discountPercentage": 10,
